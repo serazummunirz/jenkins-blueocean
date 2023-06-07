@@ -9,6 +9,18 @@
 docker build -t jenkins-blueocean:2.401.1-1 .
 ```
 
+## Create jenkins data directory with permissions
+
+```
+mkdir /var/jenkins_home
+```
+
+## Allow read write & execute permissions to this directory.
+
+```
+chmod -R 777 /var/jenkins_home
+```
+
 ## Run the docker container
 
 ```
