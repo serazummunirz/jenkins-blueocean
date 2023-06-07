@@ -1,6 +1,6 @@
 # README.md
 
-***Simply install jenkins:2.401.1 & blueocean***
+***Simply install jenkins:2.401.1 & blueocean.***
 
 
 ## First build the custom docker image
