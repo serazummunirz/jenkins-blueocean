@@ -3,7 +3,7 @@
 ***Simply install jenkins:2.401.1 & blueocean.***
 
 
-## First build the custom docker image
+## First build the custom docker image.
 
 ```
 docker build -t jenkins-blueocean:2.401.1 .
