@@ -22,5 +22,5 @@ docker-compose up -d
 * __Image:__      jenkins-blueocean:2.401.1-1  
 * __Name:__       jenkins-blueocean  
 * __Data:__       /var/jenkins_home  
-* __Certs:__      /certs/client:ro  
+* __Certs:__      /var/jenkins_home/certs/client:ro  
 
