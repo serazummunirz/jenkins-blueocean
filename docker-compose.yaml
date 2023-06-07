@@ -1,0 +1,11 @@
+version: "3"
+services:
+  jenkins:
+    image: jenkins-blueocean:2.401.1-1
+    restart: on-failure
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - /var/jenkins_home:/var/jenkins_home
+      - /var/jenkins_home/certs:/certs/client:ro
