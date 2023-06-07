@@ -1,12 +1,12 @@
 # README.md
 
-***Simply install jenkins:2.401.1 & blueocean***
+***Simply install jenkins:2.332.3 & blueocean***
 
 
 ## First build the custom docker image
 
 ```
-docker build -t jenkins-blueocean:2.332.3-1 .
+docker build -t jenkins-blueocean:2.332.3 .
 ```
 
 ## Create jenkins data directory with permissions
@@ -31,7 +31,7 @@ docker-compose up -d
 
 ## About the installation:  
 
-* __Image:__      jenkins-blueocean:2.332.3-1 
+* __Image:__      jenkins-blueocean:2.332.3
 * __Name:__       jenkins-blueocean  
 * __Data:__       /var/jenkins_home  
 * __Certs:__      /var/jenkins_home/certs/client:ro  

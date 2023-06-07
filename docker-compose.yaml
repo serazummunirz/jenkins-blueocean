@@ -1,7 +1,7 @@
 version: "3"
 services:
   jenkins:
-    image: jenkins-blueocean:2.332.3-1
+    image: jenkins-blueocean:2.332.3
     restart: on-failure
     ports:
       - 8080:8080
