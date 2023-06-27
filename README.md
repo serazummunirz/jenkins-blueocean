@@ -6,7 +6,7 @@
 ## First build the custom docker image.
 
 ```
-docker build -t jenkins-blueocean:2.401.1 .
+docker build -t jenkins-blueocean:2.332.3-1 .
 ```
 
 ## Create jenkins data directory with permissions
