@@ -1,7 +1,7 @@
 version: "3"
 services:
   jenkins:
-    build: .
+    image: jenkins-blueocean:2.332.3-1
     restart: always
     networks:
       - jenkins
