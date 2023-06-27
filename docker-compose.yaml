@@ -2,7 +2,9 @@ version: "3"
 services:
   jenkins:
     build: .
-    restart: on-failure
+    restart: always
+    networks:
+      - jenkins
     ports:
       - 8080:8080
       - 50000:50000
@@ -10,3 +12,6 @@ services:
       - /var/jenkins_home:/var/jenkins_home
       - /var/jenkins_home/certs:/certs/client:ro
       - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  jenkins: {}
